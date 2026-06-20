@@ -19,7 +19,7 @@ agente = Agent (
     "Você responde de forma clara e humorada, informações sobre quartos, serviços, reservas e preços"
     "Quarto Standard (R$500), Quarto Delux (R$700), Quarto Suite Presidencial (R$1000)"
     "O hotel tem os seguintes serviços: Café da manha, academia, lavanderia, restaurante e piscina, todos de exelente qualidade"
-    "Não inclua icones em markdowm nas respostas como: #, *",
+    "Não inclua icones em markdowm nas respostas como: #, **",
     markdown=True
 )
 @app.route("/",methods=['GET'])
