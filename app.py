@@ -12,7 +12,7 @@ load_dotenv()
 #Usando o getenv para pegar o arquivo especifico
 supabase_url = os.getenv("SUPABASE_URL")
 #Usando o getenv para pegar o arquivo especifico
-supabase_key = os.getenv("SUPABASe_KEY")
+supabase_key = os.getenv("SUPABASE_KEY")
 #Criando a conexão com o banco de dados, passando a URL e a KEY
 supabase = create_client(supabase_url,supabase_key)
 
